@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #64209c;
+}
+
+.canvas {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-color: #FFF6C3;
+    border: 1px solid red;
+
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #850000;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #850000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bottom, .top {
+    color: #fff;
+}
